@@ -16,6 +16,7 @@
 $(call inherit-product, device/sony/pollux-common/pollux-common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/pollux/overlay
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
